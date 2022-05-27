@@ -10,10 +10,16 @@ A2. Statement balance
 A3. Make a withdrawal 
 */
 
+let ansArr = document.querySelectorAll(".answer");
+
+let newArr = Array.prototype.ansArr;
+
+console.log(newArr);
+
 document.querySelector("#clickMe").addEventListener("click", makeReq);
 
 async function makeReq() {
-  const userName = document.querySelector("#userName").value;
+  //   const userName = document.querySelector("#userName").value;
   const res = await fetch(`/api?person=${userName}`);
   const data = await res.json();
 
@@ -47,3 +53,4 @@ startGame = () => {
   availableQuesions = [...questions];
   getNewQuestion();
 };
+getNewQuestion();

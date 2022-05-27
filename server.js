@@ -76,7 +76,6 @@
 
 
 
-
 const http = require("http");
 const fs = require("fs");
 const url = require("url");
@@ -109,7 +108,12 @@ const server = http.createServer((req, res) => {
       readWriteHead("js/main.js", "text/javascript");
       break;
     case "/api":
-      let personName = "unknown";
+      let a1 = [
+        "Balance Amount",
+        "Last Balance",
+        "Last Deposit",
+        "Last Withdrawal",
+      ];
       let personStatus = "unknown";
       let personOccupation = "unknown";
 
