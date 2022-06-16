@@ -21,10 +21,12 @@ const server = http.createServer((req, res) => {
   //Landing page request
   if (page == '/') {
     readHelper('index.html', 'text/html');
-  } else if (page == '/transfer') {
-    readHelper('transfer.html', 'text/html');
-  } else if (page == '/replacement') {
-    readHelper('replacement.html', 'text/html');
+  } else if (page == '/codes') {
+    readHelper('codes.html', 'text/html');
+  } else if (page == '/pay') {
+    readHelper('pay.html', 'text/html');
+  } else if (page == '/support') {
+    readHelper('support.html', 'text/html');
   }
 
   // API Request
