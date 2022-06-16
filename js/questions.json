@@ -4,32 +4,36 @@
     "text": "How can I help you today?",
     "answers": [
       {
-        "text": "Billing Question",
+        "text": "Help with Affidavit",
         "next": "billing"
       },
       {
-        "text": "Make a transfer",
+        "text": "Question about Codes",
         "next": "transfer"
       },
       {
-        "text": "Update information",
+        "text": "Update License",
         "next": "info"
+      },
+      {
+        "text": "Invoicing and Payments",
+        "next": "invoice"
       }
     ]
   },
   {
-    "text": "Billing Question",
+    "text": "Help with Affidavit",
     "answers": [
       {
-        "text": "When will my funds be available?",
+        "text": "Remove or Add Notary",
         "next": "funds"
       },
       {
-        "text": "Can my late fee be waived?",
+        "text": "Electronic Signatures",
         "next": "lateFee"
       },
       {
-        "text": "Stop a payment",
+        "text": "Special Affidavit",
         "next": "stop"
       }
     ]
