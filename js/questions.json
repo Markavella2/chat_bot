@@ -39,7 +39,7 @@
     ]
   },
   {
-    "text": "Make a Transfer",
+    "text": "Question about Codes",
     "answers": [
       {
         "text": "Checkings to Savings",
@@ -56,7 +56,7 @@
     ]
   },
   {
-    "text": "Update Information",
+    "text": "Update License",
     "answers": [
       {
         "text": "Lost or Stolen Card",
@@ -73,7 +73,24 @@
     ]
   },
   {
-    "text": "When will my funds be available?",
+    "text": "Invoicing and Payments",
+    "answers": [
+      {
+        "text": "Lost or Stolen Card",
+        "next": "stolen"
+      },
+      {
+        "text": "Replacement Card",
+        "next": "replacement"
+      },
+      {
+        "text": "Hours of Operation",
+        "next": "hours"
+      }
+    ]
+  },
+  {
+    "text": "Remove or Add Notary",
     "answers": [
       {
         "text": "We'll give you access to your money, eventually..."
@@ -81,7 +98,7 @@
     ]
   },
   {
-    "text": "Can my late fee be waived?",
+    "text": "Electronic Signatures",
     "answers": [
       {
         "text": "No, stop asking!"
