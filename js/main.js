@@ -143,11 +143,11 @@ async function renderQuestion() {
 
         case 'transferPage':
           window.location =
-            'https://citrine-bankchatbot.herokuapp.com/transfer';
+            'https://minty-chat-bot.herokuapp.com/transfer';
           break;
         case 'replacementPage':
           window.location =
-            'https://citrine-bankchatbot.herokuapp.com/replacement';
+            'https://minty-chat-bot.herokuapp.com/replacement';
           break;
       }
       renderQuestion();
