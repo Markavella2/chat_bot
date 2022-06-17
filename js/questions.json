@@ -33,7 +33,7 @@
         "next": "lateFee"
       },
       {
-        "text": "Special Affidavit",
+        "text": "Create Custom Affidavit",
         "next": "stop"
       }
     ]
@@ -42,15 +42,15 @@
     "text": "Question about Codes",
     "answers": [
       {
-        "text": "Checkings to Savings",
+        "text": "Request Code Extension",
         "next": "cToS"
       },
       {
-        "text": "Savings to Checking",
+        "text": "My Codes Aren't Working",
         "next": "sToC"
       },
       {
-        "text": "Zelle transfer",
+        "text": "How Do I Check For New Codes?",
         "next": "zelle"
       }
     ]
@@ -59,15 +59,15 @@
     "text": "Update License",
     "answers": [
       {
-        "text": "Lost or Stolen Card",
+        "text": "Change of Address",
         "next": "stolen"
       },
       {
-        "text": "Replacement Card",
+        "text": "Change of Company Ownership",
         "next": "replacement"
       },
       {
-        "text": "Hours of Operation",
+        "text": "Other Misc. Update",
         "next": "hours"
       }
     ]
@@ -76,16 +76,16 @@
     "text": "Invoicing and Payments",
     "answers": [
       {
-        "text": "Lost or Stolen Card",
-        "next": "stolen"
+        "text": "How Do I Print My Invoice?",
+        "next": "print"
       },
       {
-        "text": "Replacement Card",
-        "next": "replacement"
+        "text": "Batch Invoicing",
+        "next": "batch"
       },
       {
-        "text": "Hours of Operation",
-        "next": "hours"
+        "text": "Record Client Payments",
+        "next": "cliPay"
       }
     ]
   },
@@ -93,7 +93,7 @@
     "text": "Remove or Add Notary",
     "answers": [
       {
-        "text": "We'll give you access to your money, eventually..."
+        "text": "To remove the notary, open Job Options and check 'Omit Notary Block', then Accept."
       }
     ]
   },
@@ -101,68 +101,93 @@
     "text": "Electronic Signatures",
     "answers": [
       {
-        "text": "No, stop asking!"
+        "text": "Scan the signature and save as .jpg file. Crop the image. Load it into the server record. Create a password."
       }
     ]
   },
   {
-    "text": "Can I stop a payment?",
+    "text": "Create Custom Affidavit",
     "answers": [
       {
-        "text": "When was the payment made and what was the amount?"
+        "text": "Go to Setup > Affidavits > Custom Affidavits. If you need further help, click here to contact Support.",
+        "next": "supportPage"
       }
     ]
   },
   {
-    "text": "Checkings to Savings",
+    "text": "Request Code Extension",
     "answers": [
       {
-        "text": "Continue to move to the transfers page to complete a transfer",
-        "next": "transferPage"
+        "text": "Need extra time to make a payment? You can extend your codes here",
+        "next": "codesPage"
       }
     ]
   },
   {
-    "text": "Savings to Checking",
+    "text": "My Codes Aren't Working",
     "answers": [
       {
-        "text": "Continue to move to the transfers page to complete a transfer",
-        "next": "transferPage"
+        "text": "We may need a new invoice code, or you've made an update to your license. Click here to contact Support.",
+        "next": "supportPage"
       }
     ]
   },
   {
-    "text": "Zelle Transfer",
+    "text": "How Do I Check For New Codes?",
     "answers": [
       {
-        "text": "Continue to move to the Zelle transfers page to complete a transfer",
-        "next": "transferPage"
+        "text": "Go to Setup > Edit Licensee. Click 'Check For New Codes', then click Accept.",
+        "next": "codesPage"
       }
     ]
   },
   {
-    "text": "Lost or Stolen Card",
+    "text": "Change of Address",
     "answers": [
       {
-        "text": "Continue to complete the form for a replacement card.",
-        "next": "replacementPage"
+        "text": "Go to Setup > Edit Licensee. Update your Address here then click Accept."
       }
     ]
   },
   {
-    "text": "Replacement Card",
+    "text": "Change of Company Ownership",
     "answers": [
       {
-        "text": "Continue to complete the form for a replacement card.",
-        "next": "replacementPage"
+        "text": "Send a signed document with the new owner's name and the effective date to Support. Click here to contact Support.",
+        "next": "supportPage"
       }
     ]
   },
   {
-    "text": "Hours of Operation",
+    "text": "Other Misc. Update?",
     "answers": [
       {
-        "text": "We are open Monday thru Friday 9am - 6pm, Saturday & Sunday 10am - 5pm."
+        "text": "Click here to contact Support.",
+        "next": "supportPage"
+      }
+    ]
+  },
+  {
+    "text": "How Do I Print My Invoice?",
+    "answers": [
+      {
+        "text": "Go to Utilities > Process My Print Queue."
+      }
+    ]
+  },
+  {
+    "text": "Batch Invoicing",
+    "answers": [
+      {
+        "text": "Go to Accounting > Print a Batch Invoice."
+      }
+    ]
+  },
+  {
+    "text": "Record Client Payments",
+    "answers": [
+      {
+        "text": "Go to Accounting > Record Client Payments."
       }
     ]
   }

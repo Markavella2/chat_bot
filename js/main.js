@@ -71,14 +71,28 @@ async function renderQuestion() {
           currentQuestionIndex = 12;
           break;
 
-        case 'transferPage':
-          window.location =
-            'https://minty-chat-bot.herokuapp.com/transfer';
+        case 'print':
+          currentQuestionIndex = 13;
           break;
-        case 'replacementPage':
-          window.location =
-            'https://minty-chat-bot.herokuapp.com/replacement';
+        case 'batch':
+          currentQuestionIndex = 14;
           break;
+        case 'cliPay':
+          currentQuestionIndex = 15;
+          break;
+
+        case 'codesPage':
+          window.location =
+            'https://minty-chat-bot.herokuapp.com/codes';
+          break;
+        case 'payPage':
+          window.location =
+            'https://minty-chat-bot.herokuapp.com/pay';
+          break;
+        case 'supportPage':
+           window.location =
+             'https://minty-chat-bot.herokuapp.com/support';
+           break;
       }
       renderQuestion();
     });
