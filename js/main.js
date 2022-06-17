@@ -40,45 +40,47 @@ async function renderQuestion() {
         case 'info':
           currentQuestionIndex = 3;
           break;
-
-        case 'funds':
+        case 'invoice':
           currentQuestionIndex = 4;
           break;
-        case 'lateFee':
+        case 'funds':
           currentQuestionIndex = 5;
           break;
-        case 'stop':
+        case 'lateFee':
           currentQuestionIndex = 6;
+          break;
+        case 'stop':
+          currentQuestionIndex = 7;
           break;
 
         case 'cToS':
-          currentQuestionIndex = 7;
-          break;
-        case 'sToC':
           currentQuestionIndex = 8;
           break;
-        case 'zelle':
+        case 'sToC':
           currentQuestionIndex = 9;
+          break;
+        case 'zelle':
+          currentQuestionIndex = 10;
           break;
 
         case 'stolen':
-          currentQuestionIndex = 10;
-          break;
-        case 'replacement':
           currentQuestionIndex = 11;
           break;
-        case 'hours':
+        case 'replacement':
           currentQuestionIndex = 12;
+          break;
+        case 'hours':
+          currentQuestionIndex = 13;
           break;
 
         case 'print':
-          currentQuestionIndex = 13;
-          break;
-        case 'batch':
           currentQuestionIndex = 14;
           break;
-        case 'cliPay':
+        case 'batch':
           currentQuestionIndex = 15;
+          break;
+        case 'cliPay':
+          currentQuestionIndex = 16;
           break;
 
         case 'codesPage':

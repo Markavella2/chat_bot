@@ -145,24 +145,51 @@
   .main {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-      url('https://github.com/CitrineDragon/Images/blob/master/bankMain.jpg?raw=true');
+    background: linear-gradient(rgba(7, 76, 179, 0.8), rgba(79, 83, 87, 0.8)),
+      url(connect.jpg);
     background-position-y: 0%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50rem;
+    height: 30rem;
     width: 100%;
     margin: 10rem;
     justify-content: center;
     align-items: center;
   }
+
+  .gap{
+    padding-bottom: 8em
+  }
+
+  /* Footer */
+
+  .foot {
+    font-size: 2em;
+    padding-top: 3em;
+    padding-bottom: 2em
+  }
   
+/* FORM */
+
+form{
+  padding-top: 5em;
+  padding-bottom: 8em;
+  font-size: 2em;
+}
+
+.butt{
+  display: flex;
+  flex-direction: row;
+  font-size: 2em;
+  margin-top: 2em;
+}
+
   /* Chat Element */
   
   .container {
     background: var(--lightGreen);
     color: black;
-    height: 50rem;
+    height: 40rem;
     width: 30rem;
     border-radius: 1rem;
     -webkit-box-shadow: 0.3rem 0.3rem 0.7rem 0.1rem var(--black);
@@ -181,7 +208,7 @@
   .chat {
     background: var(--beige);
     font-size: 2rem;
-    height: calc(45rem - 0.2rem);
+    height: calc(35rem - 0.2rem);
     width: calc(28rem - 0.2rem);
     border: 0.1rem solid #333;
     border-radius: 0.5rem;
